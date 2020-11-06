@@ -18,6 +18,7 @@ function FileUpload({ refreshFunction }) {
         // console.log(response);
         if (response.data.success) {
           setImages([...Images, response.data.image]);
+          refreshFunction([...Images, response.data.image]);
         } else {
           alert("Failed to save the Image in Server");
         }
