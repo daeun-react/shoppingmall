@@ -46,4 +46,13 @@ export function logoutUser() {
   };
 }
 
-export function addToCart(productId) {}
+export function addToCart(productId) {
+  const request = axios
+    .get(`${USER_SERVER}/addToCart?productId=${_id}`)
+    .then((response) => response.data);
+
+  return {
+    type: ADD_TO_CART_USER,
+    payload: request,
+  };
+}
