@@ -109,13 +109,13 @@ router.get("/products_by_id", (req, res) => {
 
   // console.log("req.query.id", req.query.id);
 
-  // if (type === "array") {
-  //   let ids = req.query.id.split(",");
-  //   productIds = [];
-  //   productIds = ids.map((item) => {
-  //     return item;
-  //   });
-  // }
+  if (type === "array") {
+    let ids = req.query.id.split(",");
+    productIds = [];
+    productIds = ids.map((item) => {
+      return item;
+    });
+  }
 
   // console.log("productIds", productIds);
 

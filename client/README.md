@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# REACT SHOPPINGMALL SITE
 
-## Available Scripts
+## Pages
 
-In the project directory, you can run:
+LandingPage
 
-### `npm start`
+LoginPage
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+RegisterPage
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+NavBar
 
-### `npm test`
+Footer
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+UploadProductPage
 
-### `npm run build`
+DetailProductPage
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+CartPage
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+HistoryPage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Packages
 
-### `npm run eject`
+"antd": "^3.26.20",
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+"axios": "^0.19.2",
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+"core-js": "^3.6.5",
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+"formik": "^1.5.8",
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+"moment": "^2.29.1",
 
-## Learn More
+"react-app-polyfill": "^1.0.6",
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+"react-icons": "^3.11.0",
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+"react-paypal-express-checkout": "^1.0.5",
 
-### Code Splitting
+"react-redux": "^7.2.2",
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+"react-router-dom": "^5.2.0",
 
-### Analyzing the Bundle Size
+"redux": "^4.0.0",
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+"redux-devtools-extension": "^2.13.9",
 
-### Making a Progressive Web App
+"redux-promise": "^0.6.0",
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+"redux-thunk": "^2.3.0",
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+"yup": "^0.27.0"

@@ -1,18 +1,53 @@
-Hello, My Friends  
-Thank you for having interest in this repository ! 
+# REACT SHOPPINGMALL SITE
 
-To use this application, 
+## Pages
 
-1. make dev.js file inside config folder 
-2. put mongoDB info into dev.js file 
-3. Type  " npm install " inside the root directory  ( Download Server Dependencies ) 
-4. Type " npm install " inside the client directory ( Download Front-end Dependencies )
+LandingPage
 
+LoginPage
 
-If you have problem, feel free to ask me ^^ 
+RegisterPage
 
-You can watch the tutorial for this app.
+NavBar
 
-https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q?view_as=subscriber
+Footer
 
+UploadProductPage
 
+DetailProductPage
+
+CartPage
+
+HistoryPage
+
+## Packages
+
+"antd": "^3.26.20",
+
+"axios": "^0.19.2",
+
+"core-js": "^3.6.5",
+
+"formik": "^1.5.8",
+
+"moment": "^2.29.1",
+
+"react-app-polyfill": "^1.0.6",
+
+"react-icons": "^3.11.0",
+
+"react-paypal-express-checkout": "^1.0.5",
+
+"react-redux": "^7.2.2",
+
+"react-router-dom": "^5.2.0",
+
+"redux": "^4.0.0",
+
+"redux-devtools-extension": "^2.13.9",
+
+"redux-promise": "^0.6.0",
+
+"redux-thunk": "^2.3.0",
+
+"yup": "^0.27.0"

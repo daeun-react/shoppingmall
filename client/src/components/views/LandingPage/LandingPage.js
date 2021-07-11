@@ -76,7 +76,7 @@ function LandingPage() {
         array = data[key].array;
       }
     }
-    console.log("array", array);
+    // console.log("array", array);
     return array;
   };
 
